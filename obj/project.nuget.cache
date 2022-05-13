@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m/O2pMHZFxVos1TJrf6TQTBsrAGGRr/01vKTYPcFIx22c3db74MiGo8UHgab5DbpIEu34ni818U7NQcUCkbssA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rangisetty.R\\Source\\Repos\\ca-webapp-on-kube\\ca-webapp-on-kube\\ca-webapp-on-kube.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rangisetty.R\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
