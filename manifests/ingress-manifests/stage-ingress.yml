@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ca-webapp-on-kube-stage-ingress
+  namespace: stage
+spec:
+  rules:
+  - host: "20-236-226-65.nip.io"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/stage"
+        backend:
+          service:
+            name: ramrangisettycawebapponkube
+            port:
+              number: 80

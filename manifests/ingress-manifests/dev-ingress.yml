@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ca-webapp-on-kube-ingress
+  namespace: dev
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /dev
+        pathType: Prefix
+        backend:
+          service:
+            name: ramrangisettycawebapponkube
+            port:
+              number: 80
