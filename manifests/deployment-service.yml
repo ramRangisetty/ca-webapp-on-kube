@@ -25,7 +25,7 @@ metadata:
     labels:
       app: ramrangisettycawebapponkube
 spec:
-    type: LoadBalancer
+    #type: LoadBalancer
     selector: 
       app: ramrangisettycawebapponkube
     ports:
