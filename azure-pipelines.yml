@@ -1,6 +1,6 @@
 # Docker
 # Build a Docker image
-# https://docs.microsoft.com/azure/devops/pipelines/languages/docker-4
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker4
 
 trigger:
 - master
